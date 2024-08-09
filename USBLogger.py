@@ -30,7 +30,7 @@ import GPUtil
 
 def send_email(subject, body, attachment_path, to_addr):
     from_addr = '* Your Gmail Email Address Here *'
-    app_password = '* Your Gmail Api Key Here *'  # Your Gmail App Password AKA An Gmail SMTP API Key
+    app_password = '* Your Gmail App Password Here *'  # Your Gmail App Password AKA An Gmail SMTP API Key
 
     msg = MIMEMultipart()
     msg['From'] = from_addr
