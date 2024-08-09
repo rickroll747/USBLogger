@@ -6,6 +6,8 @@ When You Execute It, It Will Send An Email To You (if you follow the tutorials b
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo, And Also This Repository Has Been Licensed With AGPL 3.0! So Pls Respect My Code.
 
+![virus-usb-icon-isometric-style-vector](https://github.com/user-attachments/assets/bf2eb622-0e56-44c2-8af2-86d9b1b14b55)
+
 # Instuctions:
 
 You Need To Edit The Python Script For It To Send An Email To You.
