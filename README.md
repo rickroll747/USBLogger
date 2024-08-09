@@ -18,7 +18,7 @@ Step 3: Save The Python Script.
 
 Step 4:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program To Make It Run The start.bat.
 
-Step 5, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With Auto-Py-To-EXE And Delete The start.bat. Tutorial: https://www.youtube.com/watch?v=xJAM8_Lx5mY
+Step 5, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With Auto-Py-To-EXE And Delete The start.bat. Tutorial On How To Convert A Python Script Into EXE: https://www.youtube.com/watch?v=xJAM8_Lx5mY
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
