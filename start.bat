@@ -1,3 +1,3 @@
 @echo off
-title USBBasher
-python USBBasher.py
+title USBLogger
+python USBLogger.py
