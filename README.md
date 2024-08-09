@@ -2,7 +2,7 @@
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
 # What It Does:
-When You Execute It, It Will Send An Email To You (if you follow the tutorials below) With Your IP Addresses, IPv4 and IPv6, Your Hostname, Your PC's Name, Your Location, Your Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Compresses Them To Make Them Under 25 Megabytes Or So.
+When You Execute It, It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your IP Addresses, IPv4 and IPv6, Your Hostname, Your PC's Name, Your Location, Your Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Compresses Them To Make Them Under 25 Megabytes Or So.
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo, And Also This Repository Has Been Licensed With AGPL 3.0! So Pls Respect My Code.
 
