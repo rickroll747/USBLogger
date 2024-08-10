@@ -26,5 +26,9 @@ Step 6, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With A
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
+# README
+THIS IS NOT A MALICIOUS SOFTWARE OR ANYTHING. IF YOU WANNA ASK QUESTIONS, WANT EXTRA FEATURES OR ANYTHING ABOUT THIS PROJECT, FEEL FREE TO EMAIL ME
+AT usbbasher@gmail.com.
+
 # Warning!
 I Am Not Responsible For Any Problems Here, This Is Only For Educational Purposes.
