@@ -21,7 +21,7 @@ You Need To Edit The Python Script For It To Send An Email To You.
 
 Step 1: Replace The * Your Gmail Email Address Here * With Your Email Address. (GMAIL)
 
-Step 2: Replace The * Your Gmail App Password Here * With Your Gmail App Password AKA Your Gmails SMTP API Key.
+Step 2: Replace The * Your Gmail App Password Here * With Your Gmail App Password AKA Your Gmail SMTP API Key.
 
 Step 3: Replace The * Your Gmail Email Address Here * On Line 177.
 
