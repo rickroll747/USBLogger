@@ -12,6 +12,7 @@ When You/The Victim Execute/s It/Plugs In The Usb , It Will Send An Email To You
 Python 3.8.10 Or Later.
 
 Download For 32-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
+
 Download For 64-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe
 
 # Instuctions/How To Make The USBLogger:
