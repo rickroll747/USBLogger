@@ -8,6 +8,12 @@ When You/The Victim Execute/s It/Plugs In The Usb , It Will Send An Email To You
 
 ![virus-usb-icon-isometric-style-vector](https://github.com/user-attachments/assets/bf2eb622-0e56-44c2-8af2-86d9b1b14b55)
 
+# Requirements
+Python 3.8.10 Or Later.
+
+Download For 32-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
+Download For 64-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe
+
 # Instuctions/How To Make The USBLogger:
 
 You Need To Edit The Python Script For It To Send An Email To You.
