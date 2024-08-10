@@ -1,4 +1,4 @@
-# USBLogger
+# USB-Logger
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
 # What It Does:
