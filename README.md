@@ -31,4 +31,4 @@ THIS IS NOT A MALICIOUS SOFTWARE OR ANYTHING. IF YOU WANNA ASK QUESTIONS, WANT E
 AT usbbasher@gmail.com.
 
 # Warning!
-I Am Not Responsible For Any Problems Here, This Is Only For Educational Purposes.
+I Am Not Responsible For Any Problems Or Consequences Here, This Is Only For Educational Purposes.
