@@ -33,6 +33,8 @@ Step 6, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With A
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
+# Feel Free To Check Another One Of My USB Projects [Here!](https://github.com/rickroll747/USB-Rubber-Locky/)
+
 # README
 THIS IS NOT A MALICIOUS SOFTWARE AND DOESNT INJECT ANY PAYLOADS OR ANYTHING. IF YOU WANNA ASK QUESTIONS, WANT EXTRA FEATURES OR ANYTHING ABOUT THIS PROJECT, FEEL FREE TO EMAIL ME
 AT usbbasher@gmail.com.
