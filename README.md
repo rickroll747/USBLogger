@@ -2,7 +2,7 @@
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
 # What It Does:
-When You/The Victim Execute/s It/Plugs In The Usb , It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
+When You/The Victim Executes It Or Plugs In The USB Flash Drive , It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key FROM GMAIL). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo, And Also This Repository Has Been Licensed With AGPL 3.0! So Pls Respect My Code.
 
