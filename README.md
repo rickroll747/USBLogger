@@ -4,7 +4,7 @@ Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 # What It Does:
 When You/The Victim Executes It Or Plugs In The USB Flash Drive , It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
 
-# NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key FROM GMAIL). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo, And Also This Repository Has Been Licensed With AGPL 3.0! So Pls Respect My Code.
+# NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key FROM GMAIL). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo
 
 ![virus-usb-icon-isometric-style-vector](https://github.com/user-attachments/assets/bf2eb622-0e56-44c2-8af2-86d9b1b14b55)
 
@@ -14,6 +14,12 @@ Python 3.8.10 Or Later.
 Download For 32-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
 
 Download For 64-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe
+
+# AGPL 3.0!
+
+This project is licensed with AGPL 3.0!
+
+In short, this means if you decide to use code for Monoxide, and you don't release the source code of your project publicly, you're violating the license.
 
 # Instuctions/How To Make The USBLogger:
 
