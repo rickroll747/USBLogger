@@ -19,7 +19,7 @@ Download For 64-Bit: https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd6
 
 This project is licensed with AGPL 3.0!
 
-In short, this means if you decide to use code for Monoxide, and you don't release the source code of your project publicly, you're violating the license.
+In short, this means if you decide to use code for USBLogger, and you don't release the source code of your project publicly, you're violating the license.
 
 # Instuctions/How To Make The USBLogger:
 
