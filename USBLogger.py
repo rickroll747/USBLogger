@@ -11,20 +11,6 @@ import requests
 import platform
 import subprocess
 import json
-
-# Install required packages if not already installed
-def install_packages():
-    try:
-        import psutil
-    except ImportError:
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'psutil'])
-
-    try:
-        import GPUtil
-    except ImportError:
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'GPUtil'])
-
-install_packages()
 import psutil
 import GPUtil
 
