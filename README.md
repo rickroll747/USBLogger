@@ -41,13 +41,13 @@ Step. 5: Convert The Python Script To Executable With
    ```bash
    pip install auto-py-to-exe
 ```
-Step 6 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
+Step 6: Run auto-py-to-exe
+   ```bash
+   auto-py-to-exe
+```
+Step 7 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
 
 Step 7: Copy The WebcamLogger.exe To Your USB Flash Drive. And Make It Run The WebcamLogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The WebcamLogger.exe Automatically When Plugged In.
-
-
-
-
 
 # USB-Keylogger Edition!
 New Keylogger Version Released On 9/24/2024!
@@ -90,9 +90,13 @@ Step. 5: Convert The Python Script To Executable With
    ```bash
    pip install auto-py-to-exe
 ```
-Step 6 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
+Step 6: Run auto-py-to-exe
+   ```bash
+   auto-py-to-exe
+```
+Step 7 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
 
-Step 7: Copy The keylogger.exe To Your USB Flash Drive. And Make It Run The keylogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The keylogger.exe Automatically When Plugged In.
+Step 8: Copy The keylogger.exe To Your USB Flash Drive. And Make It Run The keylogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The keylogger.exe Automatically When Plugged In.
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
