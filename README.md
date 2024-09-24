@@ -1,8 +1,54 @@
 # USB-Logger
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
-# What It Does:
-When You/The Victim Executes It Or Plugs In The USB Flash Drive , It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
+# Keylogger Edition!
+New Keylogger Version Released On 9/24/2024!
+## Features/ What It Does:
+A Keylogger To Start On Startup And Sends An Email Of Keylogs Everytime Before The User/Victim Shuts Down/Restarts The Computer!
+### Versions:
+Executable/Non-Executable Version
+### Recommended Note:
+Use Executable Version
+## Why Use Executable Version
+If The User Hanst Installed Python Then The Executable Version Will Run Even If The User Hasn't Installed Python.
+
+#### Instructions/How To Make The Keylogger (Non-Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Keylogs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step 5: Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The start.bat Automatically When Plugged In.
+
+
+#### Instructions/How To Make The Keylogger (Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Keylogs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step. 5: Convert The Python Script To Executable With
+
+   ```bash
+   pip install auto-py-to-exe
+```
+Step 5: Copy The Files To Your USB Flash Drive. And Make It Run The keylogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The keylogger.exe Automatically When Plugged In.
+
+# TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
+
+
+# What It Does (USBLogger Original Version):
+When You/The Victim Executes It Or Plugs In The USB Flash Drive, It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key FROM GMAIL). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo
 
@@ -33,7 +79,7 @@ Step 3: Replace The * Your Gmail Email Address Here * On Line 177.
 
 Step 4: Save The Python Script.
 
-Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run The start.bat Or The Exe File That You Coverted ( STEP 5 [OPTINIAL] ) Automatically When Plugged In.
+Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run (The start.bat/ Exe File That You Coverted) Automatically When Plugged In.
 
 Step 6, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With Auto-Py-To-EXE And Delete The start.bat. Tutorial On How To Convert A Python Script Into EXE: https://www.youtube.com/watch?v=xJAM8_Lx5mY
 
