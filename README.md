@@ -1,15 +1,63 @@
 # USB-Logger
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
-# Keylogger Edition!
+# USB-WebcamLogger Edition!
+New Webcam Logger Version Released On 9/24/2024!
+## Features/What It Does:
+A Webcam Logger To Start On Startup And Sends A Email Of The Webcam Logs Everytime Before The User/Victim Restarts The Computer!
+### Versions:
+Executable/Non-Executable Version
+### Recommended Note
+Use Executable Version
+### Why Use Executable Version
+If The User Hasnt Installed Python, The Converted Script Will Run Evenly Even Without Python.
+
+#### Instructions/How To Make The WebcamLogger (Non-Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Webcam logs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step 5: Copy The start.bat And The WebcamLogger.py To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The start.bat Automatically When Plugged In.
+
+
+#### Instructions/How To Make The WebcamLogger (Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Keylogs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step. 5: Convert The Python Script To Executable With
+
+   ```bash
+   pip install auto-py-to-exe
+```
+Step 6 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
+
+Step 7: Copy The WebcamLogger.exe To Your USB Flash Drive. And Make It Run The WebcamLogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The WebcamLogger.exe Automatically When Plugged In.
+
+
+
+
+
+# USB-Keylogger Edition!
 New Keylogger Version Released On 9/24/2024!
-## Features/ What It Does:
+## Features/What It Does:
 A Keylogger To Start On Startup And Sends An Email Of Keylogs Everytime Before The User/Victim Shuts Down/Restarts The Computer!
 ### Versions:
 Executable/Non-Executable Version
-### Recommended Note:
+### Recommended Note
 Use Executable Version
-## Why Use Executable Version
+### Why Use Executable Version
 If The User Hanst Installed Python Then The Executable Version Will Run Even If The User Hasn't Installed Python.
 
 #### Instructions/How To Make The Keylogger (Non-Executable Version)
@@ -42,7 +90,9 @@ Step. 5: Convert The Python Script To Executable With
    ```bash
    pip install auto-py-to-exe
 ```
-Step 5: Copy The Files To Your USB Flash Drive. And Make It Run The keylogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The keylogger.exe Automatically When Plugged In.
+Step 6 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
+
+Step 7: Copy The keylogger.exe To Your USB Flash Drive. And Make It Run The keylogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The keylogger.exe Automatically When Plugged In.
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
