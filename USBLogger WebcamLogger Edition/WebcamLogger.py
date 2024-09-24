@@ -89,4 +89,4 @@ finally:
     send_email(output_filename)
 
     # Clean up: remove the output video file if you don't want to keep it after emailing
-    # os.remove(output_filename)
+    os.remove(Webcam_Log.avi)
