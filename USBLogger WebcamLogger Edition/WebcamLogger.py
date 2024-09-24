@@ -13,7 +13,7 @@ SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 EMAIL_ADDRESS = 'your_email@gmail.com'  # Replace with your email
 EMAIL_PASSWORD = 'your_app_password'  # Replace with your App Password
-RECIPIENT_EMAIL = 'recipient_email@example.com'  # Replace with the recipient's email address
+RECIPIENT_EMAIL = 'recipient_email@gmail.com'  # Replace with the recipient's email address
 
 # Function to send email with the video attachment
 def send_email(video_path):
