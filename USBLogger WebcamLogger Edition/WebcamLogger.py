@@ -86,7 +86,7 @@ finally:
     cv2.destroyAllWindows()
 
     # Send the recorded video via email
-    send_email(output_filename)
+    send_email(Webcam_Log.avi)
 
     # Clean up: remove the output video file if you don't want to keep it after emailing
     os.remove(Webcam_Log.avi)
