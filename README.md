@@ -121,7 +121,7 @@ This project is licensed with AGPL 3.0!
 
 In short, this means if you decide to use code for USBLogger, and you don't release the source code of your project publicly, you're violating the license.
 
-# Instuctions/How To Make The USBLogger:
+# Instuctions/How To Make The USBLogger (Original Edition):
 
 You Need To Edit The Python Script For It To Send An Email To You.
 
