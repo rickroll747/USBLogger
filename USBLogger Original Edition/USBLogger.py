@@ -13,6 +13,9 @@ import subprocess
 import json
 import psutil
 import GPUtil
+# Install The Required Libraries...
+pip install requests psutil GPUtil
+# Main Functions..
 
 def send_email(subject, body, attachment_path, to_addr):
     from_addr = '* Your Gmail Email Address Here *'
