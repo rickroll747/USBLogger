@@ -2,6 +2,7 @@
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
 # USB-ScreenLogger
+Screen Logger Version Released On 9/30/2024.
 ## Features/What It Does:
 A Webcam Logger To Start On Startup And Sends A Email Of The Webcam Logs Everytime Before The User/Victim Restarts The Computer!
 ### Versions:
