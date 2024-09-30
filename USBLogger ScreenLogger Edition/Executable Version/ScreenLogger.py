@@ -1,7 +1,6 @@
 import os
-import sys
-import subprocess
 import shutil
+import sys
 import cv2
 import numpy as np
 import mss
@@ -11,25 +10,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 from email.mime.text import MIMEText
-import subprocess as sp
+import subprocess
 import win32api
 import win32con
 import threading
-
-# List of required libraries
-required_libs = ['opencv-python', 'mss', 'numpy', 'pywin32', 'ffmpeg-python']
-
-# Function to install the required libraries
-def install_packages(packages):
-    for package in packages:
-        try:
-            __import__(package.split('==')[0])  # Try to import the package
-        except ImportError:
-            # If the package is not installed, install it
-            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# Install necessary packages
-install_packages(required_libs)
 
 # Screen recording parameters
 filename = "screen_recording.mp4"  # Original video file
@@ -84,7 +68,7 @@ def compress_video(input_file, output_file):
     ffmpeg_command = [
         'ffmpeg', '-i', input_file, '-vcodec', 'libx264', '-crf', '28', output_file
     ]
-    sp.run(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    subprocess.run(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 # Function to send email with attachment
 def send_email_with_attachment(sender_email, sender_password, recipient_email, subject, body, filename):
