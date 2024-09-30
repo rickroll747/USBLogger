@@ -49,7 +49,7 @@ Step 7 (Very Recommended But Optional): Select "OneFile" Option And The "Window 
 
 Step 7: Copy The WebcamLogger.exe To Your USB Flash Drive. And Make It Run The WebcamLogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The WebcamLogger.exe Automatically When Plugged In.
 
-###### BREAKING NEWS:
+# BREAKING NEWS:
 WEBCAMLOGGER IS UNDETECTABLE FROM VIRUSTOTAL!!!!!!
 
 # USB-Keylogger Edition!
