@@ -41,7 +41,7 @@ screen_height = 1080  # Screen height
 
 # Email sending parameters
 sender_email = "your_email@gmail.com"  # Replace with your Gmail address
-sender_password = "your_password"  # Replace with your Gmail app password
+sender_password = "your_app_password"  # Replace with your Gmail app password
 recipient_email = "recipient_email@gmail.com"  # Replace with the recipient's email address
 subject = "Screen Recording"
 body = "Please find the attached screen recording."
