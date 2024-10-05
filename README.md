@@ -35,7 +35,7 @@ Step 7 (Very Recommended But Optional): Select "OneFile" Option And The "Window 
 
 Step 7: Copy The ScreenLogger.exe To Your USB Flash Drive. And Make It Run The ScreenLogger.exe Automatically When Plugged In With An autorun.inf Or The One Provided In This Repository (ONLY WORKS ON SOME COMPUTERS!) Or You Can Use An Autorun Program (Very Recommended And Works On All Computers/Operating Systems) To Make It Run The ScreenLogger.exe Automatically When Plugged In.
 
-#### Instructions/How To Make The WebcamLogger (Non-Executable Version)
+#### Instructions/How To Make The ScreenLogger (Non-Executable Version)
 Edit The Python Script For It To Work Properly/Send Emails
 Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRESS)
 
@@ -78,7 +78,7 @@ Step 1: Replace your_email@gmail.com With Your Email Address. (GMAIL EMAIL ADDRE
 
 Step 2: Replace your_app_password With Your Gmail App Password AKA Your Gmail SMTP API Key.
 
-Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Keylogs Get Emailed To.
+Step 3 (MOST IMPORTANT PART): Replace recipient_email@gmail.com With Your Gmail Email Address. This Part Is Where The Webcam logs Get Emailed To.
 
 Step 4: Save The Python Script.
 
